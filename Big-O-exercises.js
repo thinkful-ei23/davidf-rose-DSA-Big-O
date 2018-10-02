@@ -35,13 +35,24 @@ function doubleArrayValues(array) {
 
 //O(n) or Linear complexity
 
-
 //NAIVE SEARCH
 function naiveSearch(array, item) {
-  for (let i=0; i<array.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     if (array[i] === item) {
       return i;
     }
   }
 }
-//O(n) linear time 
+//O(n) linear time
+
+//Creating pairs
+
+function createPairs(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = i + 1; j < arr.length; j++) {
+      console.log(arr[i] + ', ' + arr[j]);
+    }
+  }
+}
+
+//O(n^2) or polynomial complexity

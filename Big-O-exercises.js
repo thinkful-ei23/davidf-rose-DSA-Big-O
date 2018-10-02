@@ -108,3 +108,10 @@ function efficientSearch(array, item) {
 }
 
 //O(log n) ir Logarithmic
+
+
+//FIND RANDOM ELEMENT
+function findRandomElement(arr) {
+  return arr[Math.floor(Math.random() * arr.length)];
+}
+//O(1) constant time 

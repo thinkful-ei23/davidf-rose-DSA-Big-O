@@ -131,3 +131,45 @@ function isPrime(n) {
 }
 
 //O(n) or Linear
+
+//RECURSIVE EXERCISES
+
+//COUNTING SHEEP  O(n) Linear
+
+//ARRAY DOUBLE O(n) Linear
+
+//REVERSE STRING O(n) Linear
+
+//TRIANGULAR NUMBER O(n) Linear
+
+//STRING SPLITTER O(n) Linear
+
+//BINARY REPRESENTATION O(n) Linear
+
+//FACTORIAL O(n) Linear
+
+//FIBONACCI O(n) Linear
+
+//ANAGRAMS O(n) Linear
+
+//ANIMAL HEIRARCHY O(n^2) Polynomial
+
+//ORGANIZATIONAL CHART O(n^2) Polynomial
+
+//ITERATIVE EXERCISES
+
+//COUNTING SHEEP O(n) Linear
+
+//DOUBLING ARRAY O(n) Linear
+
+//REVERSE STRING O(n) Linear
+
+//TRIANGULAR NUMBER O(n) Linear
+
+//STRING SPLITTER O(n) Linear
+
+//BINARY REPRESENTATION O(n) Linear
+
+//FACTORIAL O(n) Linear
+
+//FIBONACCI O(n) Linear

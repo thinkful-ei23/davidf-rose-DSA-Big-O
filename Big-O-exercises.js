@@ -57,12 +57,10 @@ function createPairs(arr) {
 
 //O(n^2) or polynomial complexity
 
-
-//FIBONACCI ITERATIVE VERSION 
+//FIBONACCI ITERATIVE VERSION
 function generateFib(num) {
   let result = [];
   for (let i = 1; i <= num; i++) {
-
     // we're adding the first item
     // to the result list, append the
     // number 0 to results
@@ -85,3 +83,28 @@ function generateFib(num) {
   return result;
 }
 //O(n) linear time
+
+//AN EFFICIENT SEARCH
+
+function efficientSearch(array, item) {
+  let minIndex = 0;
+  let maxIndex = array.length - 1;
+  let currentIndex;
+  let currentElement;
+
+  while (minIndex <= maxIndex) {
+    currentIndex = Math.floor((minIndex + maxIndex) / 2);
+    currentElement = array[currentIndex];
+
+    if (currentElement < item) {
+      minIndex = currentIndex + 1;
+    } else if (currentElement > item) {
+      maxIndex = currentIndex - 1;
+    } else {
+      return currentIndex;
+    }
+  }
+  return -1;
+}
+
+//O(log n) ir Logarithmic
